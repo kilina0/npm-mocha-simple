@@ -7,5 +7,8 @@ describe('Array', function() {
 	it('should return 0 when the value is present', function() {
       assert.equal([1, 2, 3].indexOf(1), 0);
     });
+    	it('should return 0 when the value is present', function() {
+      assert.equal([1, 2, 3].indexOf(9), 0);
+    });  
   });
 });
